@@ -12,11 +12,19 @@ State storage.
 
 ### Relational Databases
 
+#### Migrations
+
 ### Columnar/Analytics Databases
+
+#### Migrations
 
 ### Document Stores
 
+#### Migrations
+
 ### Key/Value Stores
+
+#### Migrations
 
 # Operations
 
