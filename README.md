@@ -30,13 +30,39 @@ State storage.
 
 ## Packaging
 
+## Deployment
+
+### Stateless Applications
+
+* Canaries
+* Rolling deployment
+* A/B Deployments
+
+### Orchestrated Deployment
+
+1. Disconnect from inputs
+2. Drain in-flight work
+3. Flush buffers
+4. Reboot
+5. Warm-up? Prefill caches?
+6. Reconnect to inputs
+
 ## Error Handling
 
+### Alerts and Pagers
+
+* Actionable alerts
+* Alert Fatigue
+
 ### Circuit Breakers
+
+* Graceful failure
 
 ## Configuration
 
 ## Scale
+
+* "Orders of magnitude" (10x 100x 1000x scale...)
 
 # Observability
 
@@ -55,4 +81,6 @@ Transaction IDs are issued when a request first hits your [Surface Area](#surfac
 ## Authentication
 
 ## Authorization
+
+## Auditing
 
