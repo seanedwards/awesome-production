@@ -36,7 +36,11 @@ State storage.
 
 ## Transaction IDs
 
-Transaction IDs are issued when a request first hits your [Surface Area](#Surface%20Area), and are propagated
+Transaction IDs are issued when a request first hits your [Surface Area](#surface-area), and are propagated throughout other services, so that logs, errors, and other data can be associated with a specific intent from the end user.
+
+* https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-request-tracing.html
+* https://opentracing.io/
+* https://www.honeycomb.io/
 
 # Security
 
