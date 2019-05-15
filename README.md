@@ -2,31 +2,60 @@
 
 # Architecture
 
+## Planning
+
+Weeks of programming can save you hours of planning.
+
+Measure twice cut once.
+
 ## Surface Area
 
 The full scope of externally accessible surface area.
 
 ## State
 
-State storage.
+State storage. 
 
 ### Relational Databases
+
+#### Scaling Write Performance
+
+#### Scaling Read Performance
 
 #### Migrations
 
 ### Columnar/Analytics Databases
 
+#### Scaling Write Performance
+
+#### Scaling Read Performance
+
 #### Migrations
 
 ### Document Stores
+
+#### Scaling Write Performance
+
+#### Scaling Read Performance
 
 #### Migrations
 
 ### Key/Value Stores
 
+#### Scaling Write Performance
+
+#### Scaling Read Performance
+
 #### Migrations
 
+## Documentation
+
 # Operations
+
+## Dependency Management
+
+* Licensing
+* Vulnerability scanning
 
 ## Packaging
 
@@ -68,7 +97,7 @@ State storage.
 
 ## Structured Logging
 
-## Transaction IDs
+## Transaction Tracing
 
 Transaction IDs are issued when a request first hits your [Surface Area](#surface-area), and are propagated throughout other services, so that logs, errors, and other data can be associated with a specific intent from the end user.
 
