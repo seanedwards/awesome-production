@@ -1,0 +1,4 @@
+---
+---
+
+Open source licensing considerations.
